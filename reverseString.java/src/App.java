@@ -10,8 +10,15 @@ class App {
         }
     }
 
-	public static void main(String[] args) {
-		System.out.println("Hello World");
-	}
+public static void main(String[] args) {
 
+		System.out.println("Reverse String program:- ");
+		
+char[] name = {'a','p','p','l','e'};
+
+System.out.println("Name before reversed: " + new String(name));
+reverseString(name);
+System.out.println("Name after reversed: " + new String(name));
+
+	}
 }
