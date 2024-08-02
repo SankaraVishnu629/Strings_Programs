@@ -12,6 +12,8 @@ class App {
 
 public static void main(String[] args) {
 
+
+
 		System.out.println("Reverse String program:- ");
 		
 char[] name = {'a','p','p','l','e'};
